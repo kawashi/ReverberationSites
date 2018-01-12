@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+html,body {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  height: 100%;
+}
+div#wrapper-plain {
+}
+  div#wrapper-plain div#header {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 3px solid rgba(71,162,217,0.5);
+    padding: 8px 16px;
+    background-color: rgba(0,0,0,0.75);
+    text-shadow: 0 0 8px #000;
+  }
+    div#wrapper-plain div#header div#titlename {
+      line-height: 22px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #fff;
+    }
+    div#wrapper-plain div#header div#brandname {
+      line-height: 16px;
+      font-size: 12px;
+      color: #fff;
+    }
+  div#wrapper-plain div#playbutton {
+    transition: opacity 0.4s linear;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: -55px;
+    border-left: 3px solid rgba(71,162,217,0.5);
+    border-right: 3px solid rgba(71,162,217,0.5);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.75);
+  }
+    div#wrapper-plain div#playbutton div#playsymbol {
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+      border-left: 20px solid rgba(255,255,255,1);
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+    }
+  div#wrapper-plain a.buttonbar {
+    transition: left 1s cubic-bezier(0,.66,.3,1);
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    left: 100%;
+    border-left: 3px solid rgba(71,162,217,0.5);
+    padding: 8px 16px;
+    background-color: rgba(0,0,0,0.75);
+    text-decoration: none;
+    line-height: 26px;
+    font-size: 14px;
+    color: #fff;
+  }
+
+  div#wrapper-plain a.buttonbar:hover {
+    background-color: rgba(80,80,80,0.5);
+  }
+
+  div#wrapper-plain a#playhere {
+    margin-top: -30px;
+  }
+
+  div#wrapper-plain a#playinanother {
+    margin-top: 20px;
+  }
+
+  div#wrapper-plain div#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 3px solid rgba(71,162,217,0.5);
+    padding: 4px 8px;
+    background-color: rgba(0,0,0,0.75);
+    text-align: right;
+  }
+    div#wrapper-plain div#footer img#novelspherelogo {
+      cursor: pointer;
+      height: 8px;
+      width: auto;
+      opacity: 0.8;
+      transition: opacity 0.4s linear;
+    }
+    div#wrapper-plain div#footer img#novelspherelogo:hover {
+      opacity: 1;
+    }
+.flleft {
+  float: left;
+}
+.flright {
+  float: right;
+}
+.flclear {
+  clear: both;
+}
+.alleft {
+  text-align: left;
+}
+.alcenter {
+  text-align: center;
+}
+.alright {
+  text-align: right;
+}
+a:link, a:visited, a:active {
+  text-decoration: underline;
+  color: #ccc;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
